@@ -1,0 +1,169 @@
+{
+  "steps": [
+    {
+      "state": "Reeling",
+      "IsBiteActive": false,
+      "IsReeling": true,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "CastChargeNormalized": 0.424600482,
+      "ReelProgress": 0.3851452,
+      "LineTension": 0.5229019,
+      "BiteSecondsRemaining": 0,
+      "ResultFishName": "무지개송어",
+      "icon": "Assets/Art/UI/Trout_CatchIcon.png",
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "PromptText": "왼쪽 버튼을 눌러 감고, 줄 장력이 높으면 놓으세요.",
+      "bobber": "(0.53, 0.14, 15.43)",
+      "focus": true,
+      "frame": 85704
+    },
+    {
+      "state": "Reeling",
+      "IsBiteActive": false,
+      "IsReeling": true,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "CastChargeNormalized": 0.424600482,
+      "ReelProgress": 0.3851452,
+      "LineTension": 0,
+      "BiteSecondsRemaining": 0,
+      "ResultFishName": "무지개송어",
+      "icon": "Assets/Art/UI/Trout_CatchIcon.png",
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "PromptText": "왼쪽 버튼을 눌러 감고, 줄 장력이 높으면 놓으세요.",
+      "bobber": "(0.53, 0.14, 15.43)",
+      "focus": true,
+      "frame": 86740
+    },
+    {
+      "state": "Reeling",
+      "IsBiteActive": false,
+      "IsReeling": true,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "CastChargeNormalized": 0.424600482,
+      "ReelProgress": 0.7706097,
+      "LineTension": 0.5061077,
+      "BiteSecondsRemaining": 0,
+      "ResultFishName": "무지개송어",
+      "icon": "Assets/Art/UI/Trout_CatchIcon.png",
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "PromptText": "왼쪽 버튼을 눌러 감고, 줄 장력이 높으면 놓으세요.",
+      "bobber": "(0.53, 0.16, 15.43)",
+      "focus": true,
+      "frame": 87474
+    },
+    {
+      "state": "Reeling",
+      "IsBiteActive": false,
+      "IsReeling": true,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "CastChargeNormalized": 0.424600482,
+      "ReelProgress": 0.7706097,
+      "LineTension": 0,
+      "BiteSecondsRemaining": 0,
+      "ResultFishName": "무지개송어",
+      "icon": "Assets/Art/UI/Trout_CatchIcon.png",
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "PromptText": "왼쪽 버튼을 눌러 감고, 줄 장력이 높으면 놓으세요.",
+      "bobber": "(0.53, 0.18, 15.43)",
+      "focus": true,
+      "frame": 88394
+    },
+    {
+      "state": "Caught",
+      "IsBiteActive": false,
+      "IsReeling": false,
+      "IsResultVisible": true,
+      "DidCatchFish": true,
+      "CastChargeNormalized": 0.424600482,
+      "ReelProgress": 1,
+      "LineTension": 0.32173273,
+      "BiteSecondsRemaining": 0,
+      "ResultFishName": "채널메기",
+      "icon": "Assets/Art/UI/Fish_Catfish.png",
+      "ResultMessage": "물고기를 낚았습니다!",
+      "PromptText": "물고기를 낚았습니다! 왼쪽 버튼으로 다시 시작하세요.",
+      "bobber": "(0.53, 0.20, 15.43)",
+      "focus": true,
+      "frame": 89124
+    },
+    {
+      "state": "Caught",
+      "IsBiteActive": false,
+      "IsReeling": false,
+      "IsResultVisible": true,
+      "DidCatchFish": true,
+      "CastChargeNormalized": 0.424600482,
+      "ReelProgress": 1,
+      "LineTension": 0.32173273,
+      "BiteSecondsRemaining": 0,
+      "ResultFishName": "채널메기",
+      "icon": "Assets/Art/UI/Fish_Catfish.png",
+      "ResultMessage": "물고기를 낚았습니다!",
+      "PromptText": "물고기를 낚았습니다! 왼쪽 버튼으로 다시 시작하세요.",
+      "bobber": "(0.53, 0.20, 15.43)",
+      "focus": true,
+      "frame": 90088
+    }
+  ],
+  "bite": {
+    "state": "Bite",
+    "IsBiteActive": true,
+    "IsReeling": false,
+    "IsResultVisible": false,
+    "DidCatchFish": false,
+    "CastChargeNormalized": 0.424600482,
+    "ReelProgress": 0,
+    "LineTension": 0,
+    "BiteSecondsRemaining": 4.9785347,
+    "ResultFishName": "무지개송어",
+    "icon": "Assets/Art/UI/Trout_CatchIcon.png",
+    "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+    "PromptText": "입질! Space 또는 마우스 왼쪽 버튼으로 챔질하세요.",
+    "bobber": "(0.53, 0.33, 15.43)",
+    "focus": true,
+    "frame": 84900
+  },
+  "after": {
+    "menu": false,
+    "blocked": false,
+    "scale": 1,
+    "cursor": "Locked",
+    "dead": false,
+    "inWater": false,
+    "remaining": 10,
+    "position": "(0.00, 0.08, 3.50)",
+    "volume": 0.8,
+    "sensitivity": 0.15,
+    "counts": [
+      {
+        "name": "무지개송어",
+        "count": 0
+      },
+      {
+        "name": "큰입배스",
+        "count": 0
+      },
+      {
+        "name": "강꼬치고기",
+        "count": 0
+      },
+      {
+        "name": "블루길",
+        "count": 0
+      },
+      {
+        "name": "잉어",
+        "count": 0
+      },
+      {
+        "name": "채널메기",
+        "count": 2
+      }
+    ],
+    "buttons": []
+  }
+}

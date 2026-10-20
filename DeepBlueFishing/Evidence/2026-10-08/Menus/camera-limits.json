@@ -1,0 +1,32 @@
+[
+  {
+    "yaw": 2.55,
+    "pitch": 0,
+    "camera": "(0.00, 0.00, 0.00)",
+    "up": "(0.00, 1.00, 0.00)",
+    "menu": false,
+    "scale": 1,
+    "sensitivity": 0.15,
+    "focus": true
+  },
+  {
+    "yaw": 218.55,
+    "pitch": -80,
+    "camera": "(280.00, 0.00, 0.00)",
+    "up": "(0.61, 0.17, 0.77)",
+    "menu": false,
+    "scale": 1,
+    "sensitivity": 0.15,
+    "focus": true
+  },
+  {
+    "yaw": 2.5500083,
+    "pitch": 80,
+    "camera": "(80.00, 0.00, 0.00)",
+    "up": "(0.04, 0.17, 0.98)",
+    "menu": false,
+    "scale": 1,
+    "sensitivity": 0.15,
+    "focus": true
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "output": null,
+  "diagnostics": [],
+  "success": true,
+  "result": {
+    "checks": 120,
+    "invalid": 0,
+    "rejectedMissingWater": true,
+    "rejectedBlockedWater": true,
+    "examples": [
+      {
+        "x": -30,
+        "z": 3.5,
+        "yaw": -90,
+        "charge": 0.2,
+        "ok": true,
+        "landing": "(-22.939, 0.170, 14.061)",
+        "solidY": -0.09838046,
+        "valid": true
+      },
+      {
+        "x": -30,
+        "z": 3.5,
+        "yaw": -90,
+        "charge": 2,
+        "ok": true,
+        "landing": "(-22.939, 0.170, 14.061)",
+        "solidY": -0.09838046,
+        "valid": true
+      },
+      {
+        "x": 0,
+        "z": 3.5,
+        "yaw": 0,
+        "charge": 0.2,
+        "ok": true,
+        "landing": "(0.000, 0.170, 13.000)",
+        "solidY": -0.249999985,
+        "valid": true
+      },
+      {
+        "x": 0,
+        "z": 3.5,
+        "yaw": 0,
+        "charge": 2,
+        "ok": true,
+        "landing": "(0.000, 0.170, 23.500)",
+        "solidY": -0.249999985,
+        "valid": true
+      },
+      {
+        "x": 30,
+        "z": 3.5,
+        "yaw": 90,
+        "charge": 0.2,
+        "ok": true,
+        "landing": "(24.000, 0.170, 14.500)",
+        "solidY": -0.0868253,
+        "valid": true
+      },
+      {
+        "x": 30,
+        "z": 3.5,
+        "yaw": 90,
+        "charge": 2,
+        "ok": true,
+        "landing": "(24.000, 0.170, 14.500)",
+        "solidY": -0.0868253,
+        "valid": true
+      }
+    ]
+  }
+}

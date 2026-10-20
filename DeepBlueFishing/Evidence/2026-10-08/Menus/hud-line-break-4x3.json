@@ -1,0 +1,95 @@
+{
+  "danger": {
+    "state": "Reeling",
+    "IsBiteActive": false,
+    "IsReeling": true,
+    "IsResultVisible": false,
+    "DidCatchFish": false,
+    "CastChargeNormalized": 0.1949772,
+    "ReelProgress": 0.5488554,
+    "LineTension": 0.7683982,
+    "BiteSecondsRemaining": 0,
+    "ResultFishName": "무지개송어",
+    "icon": "Assets/Art/UI/Trout_CatchIcon.png",
+    "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+    "PromptText": "왼쪽 버튼을 눌러 감고, 줄 장력이 높으면 놓으세요.",
+    "bobber": "(0.39, 0.19, 13.00)",
+    "focus": true,
+    "frame": 66615
+  },
+  "failed": {
+    "state": "Failed",
+    "IsBiteActive": false,
+    "IsReeling": false,
+    "IsResultVisible": true,
+    "DidCatchFish": false,
+    "CastChargeNormalized": 0.1949772,
+    "ReelProgress": 0.714916468,
+    "LineTension": 1,
+    "BiteSecondsRemaining": 0,
+    "ResultFishName": "무지개송어",
+    "icon": "Assets/Art/UI/Trout_CatchIcon.png",
+    "ResultMessage": "줄에 힘이 너무 많이 걸려 끊어졌습니다.",
+    "PromptText": "낚시에 실패했습니다. 왼쪽 버튼으로 다시 시작하세요.",
+    "bobber": "(0.39, 0.14, 13.00)",
+    "focus": true,
+    "frame": 67186
+  },
+  "bite": {
+    "state": "Bite",
+    "IsBiteActive": true,
+    "IsReeling": false,
+    "IsResultVisible": false,
+    "DidCatchFish": false,
+    "CastChargeNormalized": 0.1949772,
+    "ReelProgress": 0,
+    "LineTension": 0,
+    "BiteSecondsRemaining": 4.929827,
+    "ResultFishName": "무지개송어",
+    "icon": "Assets/Art/UI/Trout_CatchIcon.png",
+    "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+    "PromptText": "입질! Space 또는 마우스 왼쪽 버튼으로 챔질하세요.",
+    "bobber": "(0.39, 0.24, 13.00)",
+    "focus": true,
+    "frame": 65579
+  },
+  "after": {
+    "menu": false,
+    "blocked": false,
+    "scale": 1,
+    "cursor": "Locked",
+    "dead": false,
+    "inWater": false,
+    "remaining": 10,
+    "position": "(0.00, 0.08, 3.50)",
+    "volume": 0.8,
+    "sensitivity": 0.15,
+    "counts": [
+      {
+        "name": "무지개송어",
+        "count": 0
+      },
+      {
+        "name": "큰입배스",
+        "count": 0
+      },
+      {
+        "name": "강꼬치고기",
+        "count": 0
+      },
+      {
+        "name": "블루길",
+        "count": 0
+      },
+      {
+        "name": "잉어",
+        "count": 0
+      },
+      {
+        "name": "채널메기",
+        "count": 1
+      }
+    ],
+    "buttons": []
+  }
+}

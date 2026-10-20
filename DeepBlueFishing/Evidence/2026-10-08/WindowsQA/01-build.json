@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "buildId": "build_8f40563d1e6a",
+  "result": "Succeeded",
+  "platform": "StandaloneWindows64",
+  "outputPath": "C:/Users/USER/Documents/Codex/2026-09-28/dbs/DeepBlue/Builds/QA-20261008/Deep Blue QA.exe",
+  "totalSizeBytes": 233499186,
+  "buildTimeMs": 36430,
+  "totalWarnings": 1,
+  "totalErrors": 0,
+  "warnings": [
+    {
+      "message": "Access token is empty. Native symbols will not be uploaded for this build. Please make sure you are signed in to the Unity Cloud."
+    }
+  ]
+}

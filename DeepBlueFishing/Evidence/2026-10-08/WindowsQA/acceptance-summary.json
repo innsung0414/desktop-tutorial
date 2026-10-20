@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-08",
+  "scope": "Windows Development Player with unchanged game source, normal Input System events, plus persistence readback in existing release preview r2",
+  "result": "Passed for listed gameplay scenarios; full release/physical-input/audio acceptance remains incomplete",
+  "build": {
+    "path": "Builds/QA-20261008/Deep Blue QA.exe",
+    "development": true,
+    "sizeBytes": 233499186,
+    "errors": 0,
+    "warnings": 1,
+    "warning": "Unity Cloud native symbol upload skipped"
+  },
+  "checks": {
+    "catch": {
+      "species": "큰입배스",
+      "icon": "Fish_Bass",
+      "progress": 1,
+      "count": 1,
+      "evidence": "02-catch.json"
+    },
+    "lineBreak": {
+      "tension": 1,
+      "progress": 0.7148128,
+      "countAfter": 1,
+      "evidence": "04-line-break.json"
+    },
+    "thirdCast": {
+      "result": "hook timeout after pause/resume",
+      "countAfter": 1,
+      "evidence": "06-pause-timeout.json"
+    },
+    "pause": {
+      "biteRemaining": 5,
+      "drowningRemaining": 8.962249,
+      "movementBlocked": true,
+      "evidence": [
+        "06-pause-timeout.json",
+        "10-water-death.json",
+        "14-movement-pause.json"
+      ]
+    },
+    "water": {
+      "entry": true,
+      "exitResetSeconds": 10,
+      "reentryDrowning": true,
+      "deathInputBlocked": true,
+      "retryRestored": true,
+      "evidence": [
+        "10-water-death.json",
+        "12-death-retry.json"
+      ]
+    },
+    "camera": {
+      "yawChange": 36,
+      "pitchMin": -80,
+      "pitchMax": 80,
+      "restoredByInput": true,
+      "evidence": "13-camera.json"
+    },
+    "movement": {
+      "directions": [
+        "W",
+        "S",
+        "A",
+        "D"
+      ],
+      "grounded": true,
+      "evidence": "14-movement-pause.json"
+    },
+    "journal": {
+      "tabOpenClose": true,
+      "successOnlyOnce": true,
+      "afterQAQuitAndReleaseR2Relaunch": {
+        "discovered": 1,
+        "total": 1,
+        "bass": 1,
+        "evidence": "18-r2-persisted-journal.jpg"
+      }
+    },
+    "console": {
+      "errors": 0,
+      "warnings": 0,
+      "evidence": "16-console.json"
+    }
+  },
+  "cleanup": {
+    "qaProcessExited": true,
+    "runtimeDescriptorRemoved": true,
+    "projectEnableInBuilds": false,
+    "editorDevelopment": false,
+    "sceneDirty": false,
+    "compilationFailed": false,
+    "releasePreviewArchiveChanged": false
+  },
+  "testMethodNotes": [
+    "Temporary callbacks sent input events before the Dynamic input update, then released all controlled keys/buttons and unsubscribed. No permanent test scripts or gameplay state/balance edits.",
+    "The built-in simulate_key command manually flushed Input System before gameplay Update, so it did not prove key-edge behavior. Timing callbacks were used instead.",
+    "Runtime eval did not reference Unity.InputSystem/Newtonsoft directly. Existing loaded API methods were accessed for input queuing and evidence serialization.",
+    "10a-input-attempt-no-movement.json is excluded: separately queued full keyboard states overwrote W/S. The repeated run used one combined keyboard state and passed.",
+    "Pause movement blocking is proven by 14-movement-pause.json, not the earlier multi-event pause attempt."
+  ],
+  "remaining": [
+    "Physical keyboard/mouse input and sound listening in release r2",
+    "Release r2 full gameplay and extended performance acceptance"
+  ]
+}

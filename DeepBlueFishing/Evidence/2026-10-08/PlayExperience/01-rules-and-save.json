@@ -1,0 +1,189 @@
+{
+  "method": "Temporary live Editor checks; synthetic Sprite keys removed in finally; existing saves untouched",
+  "goals": true,
+  "legacySaveWithoutWeight": true,
+  "newBest": true,
+  "smallerKeepsBest": true,
+  "newLargerReplacesBest": true,
+  "allWeightSamplesInRange": true,
+  "stages": [
+    {
+      "Stage": 0,
+      "Summary": "첫 물고기 낚기  ·  0/1",
+      "Normalized": 0.0
+    },
+    {
+      "Stage": 1,
+      "Summary": "서로 다른 물고기 3종 발견  ·  1/3",
+      "Normalized": 0.333333343
+    },
+    {
+      "Stage": 2,
+      "Summary": "물고기 총 5마리 낚기  ·  3/5",
+      "Normalized": 0.6
+    },
+    {
+      "Stage": 3,
+      "Summary": "도감 절반 채우기 · 6종  ·  3/6",
+      "Normalized": 0.5
+    },
+    {
+      "Stage": 4,
+      "Summary": "호수의 12종 모두 발견  ·  6/12",
+      "Normalized": 0.5
+    },
+    {
+      "Stage": 5,
+      "Summary": "12종 도감 완성! 최고 무게에 도전해 보세요.",
+      "Normalized": 1.0
+    }
+  ],
+  "existing": [
+    {
+      "name": "Trout_CatchIcon",
+      "count": 0,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_Bass",
+      "count": 0,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_Pike",
+      "count": 1,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_Bluegill",
+      "count": 1,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_Carp",
+      "count": 0,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_Catfish",
+      "count": 2,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_YellowPerch",
+      "count": 0,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_Walleye",
+      "count": 0,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_BrookTrout",
+      "count": 0,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_LakeSturgeon",
+      "count": 0,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_BlackCrappie",
+      "count": 0,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_Burbot",
+      "count": 1,
+      "best": 0.0
+    }
+  ],
+  "samples": [
+    {
+      "icon": "Trout_CatchIcon",
+      "min": 0.3,
+      "max": 3.5,
+      "sampledMin": 0.3,
+      "sampledMax": 3.5
+    },
+    {
+      "icon": "Fish_Bass",
+      "min": 0.4,
+      "max": 4.5,
+      "sampledMin": 0.4,
+      "sampledMax": 4.49
+    },
+    {
+      "icon": "Fish_Pike",
+      "min": 0.8,
+      "max": 8.0,
+      "sampledMin": 0.8,
+      "sampledMax": 7.98
+    },
+    {
+      "icon": "Fish_Bluegill",
+      "min": 0.08,
+      "max": 0.65,
+      "sampledMin": 0.08,
+      "sampledMax": 0.65
+    },
+    {
+      "icon": "Fish_Carp",
+      "min": 0.8,
+      "max": 10.0,
+      "sampledMin": 0.8,
+      "sampledMax": 9.98
+    },
+    {
+      "icon": "Fish_Catfish",
+      "min": 0.6,
+      "max": 8.0,
+      "sampledMin": 0.6,
+      "sampledMax": 7.99
+    },
+    {
+      "icon": "Fish_YellowPerch",
+      "min": 0.1,
+      "max": 0.9,
+      "sampledMin": 0.1,
+      "sampledMax": 0.9
+    },
+    {
+      "icon": "Fish_Walleye",
+      "min": 0.5,
+      "max": 5.0,
+      "sampledMin": 0.5,
+      "sampledMax": 5.0
+    },
+    {
+      "icon": "Fish_BrookTrout",
+      "min": 0.15,
+      "max": 1.8,
+      "sampledMin": 0.15,
+      "sampledMax": 1.8
+    },
+    {
+      "icon": "Fish_LakeSturgeon",
+      "min": 3.0,
+      "max": 25.0,
+      "sampledMin": 3.0,
+      "sampledMax": 24.96
+    },
+    {
+      "icon": "Fish_BlackCrappie",
+      "min": 0.12,
+      "max": 1.2,
+      "sampledMin": 0.12,
+      "sampledMax": 1.2
+    },
+    {
+      "icon": "Fish_Burbot",
+      "min": 0.4,
+      "max": 5.0,
+      "sampledMin": 0.4,
+      "sampledMax": 4.99
+    }
+  ]
+}

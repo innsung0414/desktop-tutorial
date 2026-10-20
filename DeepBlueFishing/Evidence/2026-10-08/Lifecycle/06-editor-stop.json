@@ -1,0 +1,10 @@
+{
+  "playing": false,
+  "dirty": false,
+  "allLastResourcesReleased": true,
+  "console": {
+    "errors": 0,
+    "warnings": 0,
+    "logs": 0
+  }
+}

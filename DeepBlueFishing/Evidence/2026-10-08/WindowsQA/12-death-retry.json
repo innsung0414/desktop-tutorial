@@ -1,0 +1,48 @@
+{
+  "platform": "WindowsPlayer",
+  "focus": true,
+  "state": "Ready",
+  "IsBiteActive": false,
+  "IsReeling": false,
+  "DidCatchFish": false,
+  "ReelProgress": 0,
+  "LineTension": 0,
+  "BiteSecondsRemaining": 0,
+  "ResultFishName": "무지개송어",
+  "icon": "Trout_CatchIcon",
+  "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+  "menu": false,
+  "blocked": false,
+  "scale": 1,
+  "cursor": "Locked",
+  "dead": false,
+  "inWater": false,
+  "remaining": 10,
+  "position": "(0.00, 0.12, 3.50)",
+  "counts": [
+    {
+      "name": "무지개송어",
+      "count": 0
+    },
+    {
+      "name": "큰입배스",
+      "count": 1
+    },
+    {
+      "name": "강꼬치고기",
+      "count": 0
+    },
+    {
+      "name": "블루길",
+      "count": 0
+    },
+    {
+      "name": "잉어",
+      "count": 0
+    },
+    {
+      "name": "채널메기",
+      "count": 0
+    }
+  ]
+}

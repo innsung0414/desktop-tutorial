@@ -1,0 +1,117 @@
+[
+  {
+    "output": null,
+    "diagnostics": [],
+    "success": true,
+    "result": {
+      "state": "WaitingForBite",
+      "IsBiteActive": false,
+      "IsReeling": false,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "CastChargeNormalized": 0.0634245,
+      "ReelProgress": 0,
+      "LineTension": 0,
+      "BiteSecondsRemaining": 0,
+      "ResultFishName": "무지개송어",
+      "icon": "Assets/Art/UI/Trout_CatchIcon.png",
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "PromptText": "찌를 던졌습니다. 입질을 기다리세요.",
+      "bobber": "(24.00, 0.16, 14.50)",
+      "focus": true,
+      "frame": 22731
+    }
+  },
+  {
+    "output": null,
+    "diagnostics": [],
+    "success": true,
+    "result": {
+      "state": "Bite",
+      "IsBiteActive": true,
+      "IsReeling": false,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "CastChargeNormalized": 0.0634245,
+      "ReelProgress": 0,
+      "LineTension": 0,
+      "BiteSecondsRemaining": 4.905102,
+      "ResultFishName": "무지개송어",
+      "icon": "Assets/Art/UI/Trout_CatchIcon.png",
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "PromptText": "입질! Space 또는 마우스 왼쪽 버튼으로 챔질하세요.",
+      "bobber": "(24.00, 0.06, 14.50)",
+      "focus": true,
+      "frame": 24848
+    }
+  },
+  {
+    "output": null,
+    "diagnostics": [],
+    "success": true,
+    "result": {
+      "state": "Reeling",
+      "IsBiteActive": false,
+      "IsReeling": true,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "CastChargeNormalized": 0.0634245,
+      "ReelProgress": 0.37499,
+      "LineTension": 0,
+      "BiteSecondsRemaining": 0,
+      "ResultFishName": "무지개송어",
+      "icon": "Assets/Art/UI/Trout_CatchIcon.png",
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "PromptText": "왼쪽 버튼을 눌러 감고, 줄 장력이 높으면 놓으세요.",
+      "bobber": "(24.00, 0.14, 14.50)",
+      "focus": true,
+      "frame": 26567
+    }
+  },
+  {
+    "output": null,
+    "diagnostics": [],
+    "success": true,
+    "result": {
+      "state": "Reeling",
+      "IsBiteActive": false,
+      "IsReeling": true,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "CastChargeNormalized": 0.0634245,
+      "ReelProgress": 0.7496212,
+      "LineTension": 0,
+      "BiteSecondsRemaining": 0,
+      "ResultFishName": "무지개송어",
+      "icon": "Assets/Art/UI/Trout_CatchIcon.png",
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "PromptText": "왼쪽 버튼을 눌러 감고, 줄 장력이 높으면 놓으세요.",
+      "bobber": "(24.00, 0.19, 14.50)",
+      "focus": true,
+      "frame": 28129
+    }
+  },
+  {
+    "output": null,
+    "diagnostics": [],
+    "success": true,
+    "result": {
+      "state": "Caught",
+      "IsBiteActive": false,
+      "IsReeling": false,
+      "IsResultVisible": true,
+      "DidCatchFish": true,
+      "CastChargeNormalized": 0.0634245,
+      "ReelProgress": 1,
+      "LineTension": 0.3515817,
+      "BiteSecondsRemaining": 0,
+      "ResultFishName": "블루길",
+      "icon": "Assets/Art/UI/Fish_Bluegill.png",
+      "ResultMessage": "물고기를 낚았습니다!",
+      "PromptText": "물고기를 낚았습니다! 왼쪽 버튼으로 다시 시작하세요.",
+      "bobber": "(24.00, 0.18, 14.50)",
+      "focus": true,
+      "frame": 29692
+    }
+  }
+]

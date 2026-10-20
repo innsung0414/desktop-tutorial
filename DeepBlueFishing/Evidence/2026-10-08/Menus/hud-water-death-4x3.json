@@ -1,0 +1,124 @@
+{
+  "journal": {
+    "menu": true,
+    "blocked": true,
+    "scale": 0,
+    "cursor": "None",
+    "dead": false,
+    "inWater": false,
+    "remaining": 10,
+    "position": "(0.00, 0.08, 3.50)",
+    "volume": 0.8,
+    "sensitivity": 0.15,
+    "counts": [
+      {
+        "name": "무지개송어",
+        "count": 0
+      },
+      {
+        "name": "큰입배스",
+        "count": 0
+      },
+      {
+        "name": "강꼬치고기",
+        "count": 0
+      },
+      {
+        "name": "블루길",
+        "count": 0
+      },
+      {
+        "name": "잉어",
+        "count": 0
+      },
+      {
+        "name": "채널메기",
+        "count": 2
+      }
+    ],
+    "buttons": [
+      "Journal Back"
+    ]
+  },
+  "water": {
+    "menu": false,
+    "blocked": false,
+    "scale": 1,
+    "cursor": "Locked",
+    "dead": false,
+    "inWater": true,
+    "remaining": 9.094219,
+    "position": "(0.55, -0.17, 15.93)",
+    "volume": 0.8,
+    "sensitivity": 0.15,
+    "counts": [
+      {
+        "name": "무지개송어",
+        "count": 0
+      },
+      {
+        "name": "큰입배스",
+        "count": 0
+      },
+      {
+        "name": "강꼬치고기",
+        "count": 0
+      },
+      {
+        "name": "블루길",
+        "count": 0
+      },
+      {
+        "name": "잉어",
+        "count": 0
+      },
+      {
+        "name": "채널메기",
+        "count": 2
+      }
+    ],
+    "buttons": []
+  },
+  "death": {
+    "menu": true,
+    "blocked": true,
+    "scale": 0,
+    "cursor": "None",
+    "dead": true,
+    "inWater": false,
+    "remaining": 0,
+    "position": "(0.55, -0.17, 15.93)",
+    "volume": 0.8,
+    "sensitivity": 0.15,
+    "counts": [
+      {
+        "name": "무지개송어",
+        "count": 0
+      },
+      {
+        "name": "큰입배스",
+        "count": 0
+      },
+      {
+        "name": "강꼬치고기",
+        "count": 0
+      },
+      {
+        "name": "블루길",
+        "count": 0
+      },
+      {
+        "name": "잉어",
+        "count": 0
+      },
+      {
+        "name": "채널메기",
+        "count": 2
+      }
+    ],
+    "buttons": [
+      "Retry from Shore",
+      "Death to Title"
+    ]
+  }
+}

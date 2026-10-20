@@ -1,0 +1,12 @@
+{
+  "fixture": "Placed at (0,6.5,-76) then held S for 4 seconds using Input System events",
+  "position": {
+    "x": 0,
+    "y": -1801.7489,
+    "z": -91.9919739
+  },
+  "grounded": false,
+  "menu": false,
+  "dead": false,
+  "frame": 12880
+}

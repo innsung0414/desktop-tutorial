@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-08",
+  "task": "DB-032",
+  "result": "passed",
+  "bug": "At original rectangular water corners, terrain rose above bobber landing.",
+  "evidence": [
+    "landing-surface-audit.json",
+    "shore-cast-play.json",
+    "blocked-water-play.json",
+    "15-water-blocked-guidance.png",
+    "landing-fix-build.json",
+    "16-landing-fix-windows-ready.jpg"
+  ],
+  "fixtureNote": "Camera/charge varied only inside a temporary geometry audit, then restored. Play fixture moved starting player to right shore; casts/hook/reeling used normal Input System events and unmodified balance. Temporary obstacles removed and original start position confirmed after Play.",
+  "checks": 120,
+  "invalidLandings": 0,
+  "windowsBuildErrors": 0,
+  "windowsObserved": [
+    "two pointer casts",
+    "bite timeout failure",
+    "click returns to Ready",
+    "no matching exception/error in current Player.log"
+  ],
+  "notProven": [
+    "Windows physical keyboard",
+    "Windows successful hook/catch and saved reward",
+    "physical speaker listening",
+    "long-session performance"
+  ]
+}

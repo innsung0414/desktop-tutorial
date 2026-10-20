@@ -1,0 +1,9 @@
+{
+  "method": "Isolated temporary component method checks, not input gameplay; synthetic profile keys removed",
+  "first": true,
+  "firstMessage": "1.25 kg  ·  도감에 첫 기록을 남겼어요.\n목표 달성! 첫 물고기 낚기",
+  "duplicateGuard": true,
+  "smaller": true,
+  "larger": true,
+  "failure": true
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-08",
+  "build": "Builds/Windows/Deep Blue.exe",
+  "resolution": "1920x1080",
+  "method": "Windows Computer Use native pointer/keyboard actions and Player.log",
+  "observed": [
+    "Title Start button enters Ready",
+    "Pointer drag casts bobber and shows fishing line",
+    "Bite alert visible with 3 seconds remaining",
+    "Player.log records hook timeout",
+    "Subsequent left click returns to Ready"
+  ],
+  "notVerified": [
+    "Valid hook and catch in Windows",
+    "Continuous hold and line break in Windows",
+    "Windows movement, camera limits and drowning",
+    "Physical Escape/Tab/WASD/Space input"
+  ],
+  "inputLimitation": "Automated Escape produced no observed menu transition; physical keyboard response is awaiting user confirmation.",
+  "runtimeExceptions": "No C# exception in the inspected current Player.log."
+}

@@ -1,0 +1,137 @@
+{
+  "task": "DB-035",
+  "date": "2026-10-08",
+  "implementationStatus": "passed",
+  "enjoymentStatus": "not yet observed with new players",
+  "targetSessionMinutes": [
+    15,
+    20
+  ],
+  "normalInputEvidence": {
+    "method": "Normal Input System events; random reward and weight; no forced gameplay state; Escape pause for 2s during warning",
+    "catch": {
+      "elapsed": 19.0175781,
+      "state": "Caught",
+      "menu": false,
+      "effort": "Calm",
+      "effortSeconds": 1.75087142,
+      "ReelProgress": 1,
+      "LineTension": 0.005758144,
+      "DidCatchFish": true,
+      "ResultFishName": "큰입배스",
+      "ResultWeightKg": 2.42,
+      "ResultTitle": "새 물고기 발견!",
+      "ResultMessage": "2.42 kg  ·  도감에 첫 기록을 남겼어요.\n도감 절반 채우기 · 6종  ·  5/6",
+      "CompletedGoal": "",
+      "CanDismissResult": false
+    },
+    "pauseSamples": 8,
+    "pauseStable": true,
+    "warning": true,
+    "surge": true,
+    "lineBreak": {
+      "t": 12.9936218,
+      "IsResultVisible": true,
+      "DidCatchFish": false,
+      "ReelProgress": 0.840504467,
+      "LineTension": 1,
+      "IsFishSurging": false,
+      "ResultMessage": "줄에 힘이 너무 많이 걸려 끊어졌습니다.",
+      "CanDismissResult": false
+    },
+    "lineBreakSaveUnchanged": true,
+    "timeout": {
+      "t": 10.358345,
+      "IsResultVisible": true,
+      "DidCatchFish": false,
+      "ReelProgress": 0,
+      "LineTension": 0,
+      "IsFishSurging": false,
+      "ResultMessage": "챔질 시간이 지나 물고기를 놓쳤습니다.\n다음에는 입질 알림이 뜨면 Space 또는 왼쪽 버튼을 누르세요.",
+      "CanDismissResult": false
+    },
+    "timeoutSaveUnchanged": true,
+    "restartedPlay": {
+      "count": 1,
+      "bestKg": 2.42,
+      "goal": "도감 절반 채우기 · 6종  ·  5/6"
+    }
+  },
+  "isolatedRuleChecks": {
+    "resultRules": {
+      "method": "Isolated temporary component method checks, not input gameplay; synthetic profile keys removed",
+      "first": true,
+      "firstMessage": "1.25 kg  ·  도감에 첫 기록을 남겼어요.\n목표 달성! 첫 물고기 낚기",
+      "duplicateGuard": true,
+      "smaller": true,
+      "larger": true,
+      "failure": true
+    },
+    "allGoalStages": true,
+    "legacySave": true,
+    "weightRanges": true,
+    "temporarySpriteKeysRemoved": true
+  },
+  "ui": {
+    "editor": [
+      "1080p goal / catch / surge",
+      "720p journal",
+      "1024x768 goal / journal / timeout"
+    ],
+    "windows": [
+      "1920x1080 title / journal / goal"
+    ],
+    "clippingObserved": false
+  },
+  "build": {
+    "status": "completed",
+    "buildId": "build_5488f9a1e4b4",
+    "result": "Succeeded",
+    "platform": "StandaloneWindows64",
+    "outputPath": "C:/Users/USER/Documents/Codex/2026-09-28/dbs/DeepBlue/Builds/Windows/Deep Blue.exe",
+    "totalSizeBytes": 166878536,
+    "buildTimeMs": 8467,
+    "totalWarnings": 2,
+    "totalErrors": 0,
+    "errors": [],
+    "warnings": [
+      {
+        "message": "Pipeline: RuntimePipelineConfig found, but enableInBuilds = false. Pipeline will be disabled in Player builds."
+      },
+      {
+        "message": "Access token is empty. Native symbols will not be uploaded for this build. Please make sure you are signed in to the Unity Cloud."
+      }
+    ]
+  },
+  "delivery": {
+    "archive": "DeepBlue-Windows-20261008-preview-r4.zip",
+    "bytes": 69907526,
+    "sha256": "17e762a3786c49f1ed30d8d17a18ebb4c70dbb48637895f846e996154f8950ae",
+    "contentFiles": 181,
+    "manifestSame": true,
+    "allContentMatches": true,
+    "failures": [],
+    "extractedFileCount": 182
+  },
+  "windows": {
+    "nativeExtractedLaunch": true,
+    "existingBassCount": 1,
+    "oldWeightNotInvented": true,
+    "goal": "서로 다른 물고기 3종 발견 · 1/3"
+  },
+  "editorSaveSeparateFromWindows": true,
+  "limitations": [
+    "Normal input-event checks are not physical keyboard gameplay.",
+    "Target 15–20 minutes is a design aim, not measured enjoyment or retention.",
+    "Windows new weighted catch, full physical controls, audio listening and long play remain pending.",
+    "Goals, new-record and duplicate-write edge cases used isolated temporary component/profile data."
+  ],
+  "remainingTasks": [
+    "DB-019",
+    "DB-026",
+    "DB-030",
+    "DB-036"
+  ],
+  "retainedEvidence": "Assets/Evidence/2026-10-08/PlayExperience screenshots preserved after automatic approval review rejected folder cleanup.",
+  "permanentTestScriptsAdded": false
+}

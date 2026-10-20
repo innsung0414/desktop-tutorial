@@ -1,0 +1,56 @@
+[
+  {
+    "path": "Assets/Art/UI/Fish_YellowPerch.png",
+    "width": 1536,
+    "height": 1024,
+    "clear": 989748,
+    "solid": 0,
+    "partial": 583116,
+    "corner": 0
+  },
+  {
+    "path": "Assets/Art/UI/Fish_Walleye.png",
+    "width": 1536,
+    "height": 1024,
+    "clear": 1080753,
+    "solid": 0,
+    "partial": 492111,
+    "corner": 0
+  },
+  {
+    "path": "Assets/Art/UI/Fish_BrookTrout.png",
+    "width": 1536,
+    "height": 1024,
+    "clear": 1049253,
+    "solid": 0,
+    "partial": 523611,
+    "corner": 0
+  },
+  {
+    "path": "Assets/Art/UI/Fish_LakeSturgeon.png",
+    "width": 1536,
+    "height": 1024,
+    "clear": 1251589,
+    "solid": 0,
+    "partial": 321275,
+    "corner": 0
+  },
+  {
+    "path": "Assets/Art/UI/Fish_BlackCrappie.png",
+    "width": 1536,
+    "height": 1024,
+    "clear": 749610,
+    "solid": 0,
+    "partial": 823254,
+    "corner": 0
+  },
+  {
+    "path": "Assets/Art/UI/Fish_Burbot.png",
+    "width": 1536,
+    "height": 1024,
+    "clear": 1171975,
+    "solid": 0,
+    "partial": 400889,
+    "corner": 0
+  }
+]

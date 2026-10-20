@@ -1,0 +1,490 @@
+{
+  "method": "Normal cast and wait without hooking",
+  "savedDataUnchanged": true,
+  "before": [
+    {
+      "name": "Trout_CatchIcon",
+      "count": 0,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_Bass",
+      "count": 1,
+      "best": 2.42
+    },
+    {
+      "name": "Fish_Pike",
+      "count": 1,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_Bluegill",
+      "count": 1,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_Carp",
+      "count": 0,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_Catfish",
+      "count": 2,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_YellowPerch",
+      "count": 0,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_Walleye",
+      "count": 0,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_BrookTrout",
+      "count": 0,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_LakeSturgeon",
+      "count": 0,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_BlackCrappie",
+      "count": 0,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_Burbot",
+      "count": 1,
+      "best": 0.0
+    }
+  ],
+  "after": [
+    {
+      "name": "Trout_CatchIcon",
+      "count": 0,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_Bass",
+      "count": 1,
+      "best": 2.42
+    },
+    {
+      "name": "Fish_Pike",
+      "count": 1,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_Bluegill",
+      "count": 1,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_Carp",
+      "count": 0,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_Catfish",
+      "count": 2,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_YellowPerch",
+      "count": 0,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_Walleye",
+      "count": 0,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_BrookTrout",
+      "count": 0,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_LakeSturgeon",
+      "count": 0,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_BlackCrappie",
+      "count": 0,
+      "best": 0.0
+    },
+    {
+      "name": "Fish_Burbot",
+      "count": 1,
+      "best": 0.0
+    }
+  ],
+  "rows": [
+    {
+      "t": 0.001701355,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 0.3046875,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 0.605621338,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 0.905632,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 1.20595551,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 1.50636292,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 1.80754852,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 2.11001587,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 2.411049,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 2.7121582,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 3.012642,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 3.31858826,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 3.620819,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 3.922989,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 4.22407532,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 4.526123,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 4.82689667,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 5.129616,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 5.430771,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 5.73226166,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 6.03488159,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 6.33622,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 6.637848,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 6.93791962,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 7.238899,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 7.540512,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 7.841873,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 8.144226,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 8.445053,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 8.745277,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 9.046921,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 9.349342,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 9.651123,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 9.953354,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 10.2533646,
+      "IsResultVisible": false,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "왼쪽 버튼을 눌러 다시 낚시하세요.",
+      "CanDismissResult": false
+    },
+    {
+      "t": 10.358345,
+      "IsResultVisible": true,
+      "DidCatchFish": false,
+      "ReelProgress": 0.0,
+      "LineTension": 0.0,
+      "IsFishSurging": false,
+      "ResultMessage": "챔질 시간이 지나 물고기를 놓쳤습니다.\n다음에는 입질 알림이 뜨면 Space 또는 왼쪽 버튼을 누르세요.",
+      "CanDismissResult": false
+    }
+  ]
+}

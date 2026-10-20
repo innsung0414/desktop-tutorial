@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-08",
+  "scope": "FR-17 / DB-031 environment upgrade",
+  "result": "passed",
+  "imagegenAssets": 6,
+  "editorChecks": [
+    "saved scene and pre-environment backup",
+    "terrain and shelter appearance",
+    "pier walk without water trigger",
+    "water entry and exit reset",
+    "cast, Space hook, reel to Pike catch",
+    "journal adds Pike once and retains Catfish records",
+    "no diagnostic messages for either environment shader"
+  ],
+  "windowsChecks": [
+    "build succeeded, 0 errors, 2 tooling warnings",
+    "155954616 bytes total",
+    "launched latest build and clicked Start",
+    "new environment, water and HUD visible at 1920x1080"
+  ],
+  "remainingProjectChecks": [
+    "physical Windows keyboard full acceptance",
+    "audio listening and long-session performance"
+  ]
+}

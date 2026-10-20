@@ -1,0 +1,110 @@
+[
+  {
+    "index": 0,
+    "name": "무지개송어",
+    "icon": "Trout_CatchIcon",
+    "path": "Assets/Art/UI/Trout_CatchIcon.png",
+    "count": 0,
+    "type": "Sprite",
+    "transparent": true
+  },
+  {
+    "index": 1,
+    "name": "큰입배스",
+    "icon": "Fish_Bass",
+    "path": "Assets/Art/UI/Fish_Bass.png",
+    "count": 0,
+    "type": "Sprite",
+    "transparent": true
+  },
+  {
+    "index": 2,
+    "name": "강꼬치고기",
+    "icon": "Fish_Pike",
+    "path": "Assets/Art/UI/Fish_Pike.png",
+    "count": 1,
+    "type": "Sprite",
+    "transparent": true
+  },
+  {
+    "index": 3,
+    "name": "블루길",
+    "icon": "Fish_Bluegill",
+    "path": "Assets/Art/UI/Fish_Bluegill.png",
+    "count": 1,
+    "type": "Sprite",
+    "transparent": true
+  },
+  {
+    "index": 4,
+    "name": "잉어",
+    "icon": "Fish_Carp",
+    "path": "Assets/Art/UI/Fish_Carp.png",
+    "count": 0,
+    "type": "Sprite",
+    "transparent": true
+  },
+  {
+    "index": 5,
+    "name": "채널메기",
+    "icon": "Fish_Catfish",
+    "path": "Assets/Art/UI/Fish_Catfish.png",
+    "count": 2,
+    "type": "Sprite",
+    "transparent": true
+  },
+  {
+    "index": 6,
+    "name": "옐로퍼치",
+    "icon": "Fish_YellowPerch",
+    "path": "Assets/Art/UI/Fish_YellowPerch.png",
+    "count": 0,
+    "type": "Sprite",
+    "transparent": true
+  },
+  {
+    "index": 7,
+    "name": "월아이",
+    "icon": "Fish_Walleye",
+    "path": "Assets/Art/UI/Fish_Walleye.png",
+    "count": 0,
+    "type": "Sprite",
+    "transparent": true
+  },
+  {
+    "index": 8,
+    "name": "브룩송어",
+    "icon": "Fish_BrookTrout",
+    "path": "Assets/Art/UI/Fish_BrookTrout.png",
+    "count": 0,
+    "type": "Sprite",
+    "transparent": true
+  },
+  {
+    "index": 9,
+    "name": "레이크철갑상어",
+    "icon": "Fish_LakeSturgeon",
+    "path": "Assets/Art/UI/Fish_LakeSturgeon.png",
+    "count": 0,
+    "type": "Sprite",
+    "transparent": true
+  },
+  {
+    "index": 10,
+    "name": "블랙크래피",
+    "icon": "Fish_BlackCrappie",
+    "path": "Assets/Art/UI/Fish_BlackCrappie.png",
+    "count": 0,
+    "type": "Sprite",
+    "transparent": true
+  },
+  {
+    "index": 11,
+    "name": "버봇",
+    "icon": "Fish_Burbot",
+    "path": "Assets/Art/UI/Fish_Burbot.png",
+    "count": 0,
+    "type": "Sprite",
+    "transparent": true
+  }
+]

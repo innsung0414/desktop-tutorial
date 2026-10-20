@@ -1,0 +1,10 @@
+{
+  "scene": "Assets/Scenes/DeepBlueFishing.unity",
+  "dirty": false,
+  "player": "(0.00, 0.00, 3.50)",
+  "fenceRoots": 1,
+  "colliders": 254,
+  "renderers": 1,
+  "meshName": "Forest_Perimeter_Fence",
+  "compilationFailed": false
+}

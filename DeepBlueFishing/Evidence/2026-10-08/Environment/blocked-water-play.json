@@ -1,0 +1,23 @@
+{
+  "output": null,
+  "diagnostics": [],
+  "success": true,
+  "result": {
+    "state": "Failed",
+    "IsBiteActive": false,
+    "IsReeling": false,
+    "IsResultVisible": true,
+    "DidCatchFish": false,
+    "CastChargeNormalized": 0.09280169,
+    "ReelProgress": 0,
+    "LineTension": 0,
+    "BiteSecondsRemaining": 0,
+    "ResultFishName": "무지개송어",
+    "icon": "Assets/Art/UI/Trout_CatchIcon.png",
+    "ResultMessage": "가까운 수면을 찾지 못했습니다. 물가 쪽에서 다시 던져 주세요.",
+    "PromptText": "낚시에 실패했습니다. 왼쪽 버튼으로 다시 시작하세요.",
+    "bobber": "(24.00, 0.18, 14.50)",
+    "focus": true,
+    "frame": 55644
+  }
+}

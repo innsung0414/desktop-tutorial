@@ -1,0 +1,152 @@
+{
+  "method": "Temporary near-edge placements plus 3 seconds of normal Input System W events per case; original movement/collision code unchanged",
+  "finished": true,
+  "samples": [
+    {
+      "name": "rear",
+      "fixture": {
+        "x": 0,
+        "y": 5.525643,
+        "z": -69
+      },
+      "position": {
+        "x": 0,
+        "y": 5.525643,
+        "z": -69
+      },
+      "minY": 5.525643,
+      "grounded": false,
+      "within": true,
+      "travel": 0,
+      "passed": false
+    },
+    {
+      "name": "right",
+      "fixture": {
+        "x": 139,
+        "y": 4.24139071,
+        "z": 68
+      },
+      "position": {
+        "x": 139,
+        "y": 4.185255,
+        "z": 68
+      },
+      "minY": 4.185255,
+      "grounded": true,
+      "within": true,
+      "travel": 0,
+      "passed": false
+    },
+    {
+      "name": "far",
+      "fixture": {
+        "x": 0,
+        "y": 6.21780539,
+        "z": 209
+      },
+      "position": {
+        "x": 0,
+        "y": 6.21780539,
+        "z": 209
+      },
+      "minY": 6.21780539,
+      "grounded": true,
+      "within": true,
+      "travel": 0,
+      "passed": false
+    },
+    {
+      "name": "left",
+      "fixture": {
+        "x": -139,
+        "y": 9.702112,
+        "z": 68
+      },
+      "position": {
+        "x": -139,
+        "y": 9.702112,
+        "z": 68
+      },
+      "minY": 9.702112,
+      "grounded": true,
+      "within": true,
+      "travel": 0,
+      "passed": false
+    },
+    {
+      "name": "rear-left",
+      "fixture": {
+        "x": -139,
+        "y": 4.67549849,
+        "z": -69
+      },
+      "position": {
+        "x": -139,
+        "y": 4.67549849,
+        "z": -69
+      },
+      "minY": 4.67549849,
+      "grounded": true,
+      "within": true,
+      "travel": 0,
+      "passed": false
+    },
+    {
+      "name": "rear-right",
+      "fixture": {
+        "x": 139,
+        "y": 11.6682205,
+        "z": -69
+      },
+      "position": {
+        "x": 139,
+        "y": 11.6682205,
+        "z": -69
+      },
+      "minY": 11.6682205,
+      "grounded": true,
+      "within": true,
+      "travel": 0,
+      "passed": false
+    },
+    {
+      "name": "far-right",
+      "fixture": {
+        "x": 139,
+        "y": 4.74212646,
+        "z": 209
+      },
+      "position": {
+        "x": 139,
+        "y": 4.74212646,
+        "z": 209
+      },
+      "minY": 4.74212646,
+      "grounded": true,
+      "within": true,
+      "travel": 0,
+      "passed": false
+    },
+    {
+      "name": "far-left",
+      "fixture": {
+        "x": -139,
+        "y": 4.524295,
+        "z": 209
+      },
+      "position": {
+        "x": -139,
+        "y": 4.524295,
+        "z": 209
+      },
+      "minY": 4.524295,
+      "grounded": true,
+      "within": true,
+      "travel": 0,
+      "passed": false
+    }
+  ],
+  "validRun": false,
+  "reason": "Editor lost game focus; auto-pause blocked movement. This run is not evidence of boundary failure or success."
+}

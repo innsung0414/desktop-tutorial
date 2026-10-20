@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-08",
+  "mode": "built-in image_gen",
+  "intent": "generate",
+  "transparent_background": true,
+  "usage": "Fish reward and journal Sprite; original PNG preserved",
+  "research": "Docs/FISH_RESEARCH_2026-10-08.md",
+  "assets": [
+    {
+      "nameKo": "옐로퍼치",
+      "nameEn": "Yellow perch",
+      "scientificName": "Perca flavescens",
+      "file": "Assets/Art/UI/Fish_YellowPerch.png",
+      "source": "C:\\Users\\USER\\.codex\\generated_images\\01a0e3b7-9b70-7d93-8d16-c966f44190c2\\exec-4d7d4662-c41b-4c67-8c5b-df8f32f1427c.png",
+      "prompt": "Use case: stylized-concept. Asset type: original transparent fish reward/encyclopedia sprite for the Unity 3D fishing game Deep Blue. Primary request: exactly ONE anatomically recognizable freshwater fish, full body in strict left-facing side profile, nose on left, tail on right, centered horizontally. Style: polished semi-realistic natural history game illustration with realistic scales/skin, delicate fin rays, controlled glossy highlights, softly painted detail, clear readable silhouette at small UI card size. Composition: landscape 3:2, fish occupies about 88% of width, all fins and tail fully visible, comfortable clear margin. Gentle upper-left neutral light and subtle underside shading ON the fish only. Background: genuinely transparent alpha. No water, landscape, floor, cast shadow, halo, particles, fishing tackle, typography, border, labels, logo or watermark. This is new original artwork, not a copy of another game's art. Subject: Yellow perch (Perca flavescens). Species identifiers: Golden yellow body with olive back, six bold dark olive vertical bars, orange-red pelvic and anal fins, two dorsal fins including a raised spiny first dorsal, modest mouth; compact elongated perch silhouette."
+    },
+    {
+      "nameKo": "월아이",
+      "nameEn": "Walleye",
+      "scientificName": "Sander vitreus",
+      "file": "Assets/Art/UI/Fish_Walleye.png",
+      "source": "C:\\Users\\USER\\.codex\\generated_images\\01a0e3b7-9b70-7d93-8d16-c966f44190c2\\exec-761adbcc-40ca-403e-a6a4-47a04f5c07d9.png",
+      "prompt": "Use case: stylized-concept. Asset type: original transparent fish reward/encyclopedia sprite for the Unity 3D fishing game Deep Blue. Primary request: exactly ONE anatomically recognizable freshwater fish, full body in strict left-facing side profile, nose on left, tail on right, centered horizontally. Style: polished semi-realistic natural history game illustration with realistic scales/skin, delicate fin rays, controlled glossy highlights, softly painted detail, clear readable silhouette at small UI card size. Composition: landscape 3:2, fish occupies about 88% of width, all fins and tail fully visible, comfortable clear margin. Gentle upper-left neutral light and subtle underside shading ON the fish only. Background: genuinely transparent alpha. No water, landscape, floor, cast shadow, halo, particles, fishing tackle, typography, border, labels, logo or watermark. This is new original artwork, not a copy of another game's art. Subject: Walleye (Sander vitreus). Species identifiers: Long olive-gold body, pearly cream belly, large glassy eye, pointed predatory mouth, separated spiny first dorsal and soft second dorsal, white marking at the lower tip of the forked tail. Clearly more slender than a bass."
+    },
+    {
+      "nameKo": "브룩송어",
+      "nameEn": "Brook trout",
+      "scientificName": "Salvelinus fontinalis",
+      "file": "Assets/Art/UI/Fish_BrookTrout.png",
+      "source": "C:\\Users\\USER\\.codex\\generated_images\\01a0e3b7-9b70-7d93-8d16-c966f44190c2\\exec-b63d5986-9fe1-4be7-82d2-3c6def660756.png",
+      "prompt": "Use case: stylized-concept. Asset type: original transparent fish reward/encyclopedia sprite for the Unity 3D fishing game Deep Blue. Primary request: exactly ONE anatomically recognizable freshwater fish, full body in strict left-facing side profile, nose on left, tail on right, centered horizontally. Style: polished semi-realistic natural history game illustration with realistic scales/skin, delicate fin rays, controlled glossy highlights, softly painted detail, clear readable silhouette at small UI card size. Composition: landscape 3:2, fish occupies about 88% of width, all fins and tail fully visible, comfortable clear margin. Gentle upper-left neutral light and subtle underside shading ON the fish only. Background: genuinely transparent alpha. No water, landscape, floor, cast shadow, halo, particles, fishing tackle, typography, border, labels, logo or watermark. This is new original artwork, not a copy of another game's art. Subject: Brook trout (Salvelinus fontinalis). Species identifiers: Olive-green back with cream wormlike vermiculation, cream spots and small red spots with delicate blue halos on flanks, rich rusty-orange belly, white leading edges with black edging on lower fins, small adipose fin, lightly forked tail."
+    },
+    {
+      "nameKo": "레이크철갑상어",
+      "nameEn": "Lake sturgeon",
+      "scientificName": "Acipenser fulvescens",
+      "file": "Assets/Art/UI/Fish_LakeSturgeon.png",
+      "source": "C:\\Users\\USER\\.codex\\generated_images\\01a0e3b7-9b70-7d93-8d16-c966f44190c2\\exec-8fc5f167-d945-4c5b-843b-917840016b3b.png",
+      "prompt": "Use case: stylized-concept. Asset type: original transparent fish reward/encyclopedia sprite for the Unity 3D fishing game Deep Blue. Primary request: exactly ONE anatomically recognizable freshwater fish, full body in strict left-facing side profile, nose on left, tail on right, centered horizontally. Style: polished semi-realistic natural history game illustration with realistic scales/skin, delicate fin rays, controlled glossy highlights, softly painted detail, clear readable silhouette at small UI card size. Composition: landscape 3:2, fish occupies about 88% of width, all fins and tail fully visible, comfortable clear margin. Gentle upper-left neutral light and subtle underside shading ON the fish only. Background: genuinely transparent alpha. No water, landscape, floor, cast shadow, halo, particles, fishing tackle, typography, border, labels, logo or watermark. This is new original artwork, not a copy of another game's art. Subject: Lake sturgeon (Acipenser fulvescens). Species identifiers: Long armored slate-gray and bronze body, five rows of prominent pale bony scutes, tapered conical snout with four short barbels beneath the snout and a small ventral mouth, dorsal fin far back near tail, heterocercal tail with longer upper lobe. Clearly an armored freshwater sturgeon, not a shark."
+    },
+    {
+      "nameKo": "블랙크래피",
+      "nameEn": "Black crappie",
+      "scientificName": "Pomoxis nigromaculatus",
+      "file": "Assets/Art/UI/Fish_BlackCrappie.png",
+      "source": "C:\\Users\\USER\\.codex\\generated_images\\01a0e3b7-9b70-7d93-8d16-c966f44190c2\\exec-a0bd003b-e082-42c9-b9c0-2de380d75647.png",
+      "prompt": "Use case: stylized-concept. Asset type: original transparent fish reward/encyclopedia sprite for the Unity 3D fishing game Deep Blue. Primary request: exactly ONE anatomically recognizable freshwater fish, full body in strict left-facing side profile, nose on left, tail on right, centered horizontally. Style: polished semi-realistic natural history game illustration with realistic scales/skin, delicate fin rays, controlled glossy highlights, softly painted detail, clear readable silhouette at small UI card size. Composition: landscape 3:2, fish occupies about 88% of width, all fins and tail fully visible, comfortable clear margin. Gentle upper-left neutral light and subtle underside shading ON the fish only. Background: genuinely transparent alpha. No water, landscape, floor, cast shadow, halo, particles, fishing tackle, typography, border, labels, logo or watermark. This is new original artwork, not a copy of another game's art. Subject: Black crappie (Pomoxis nigromaculatus). Species identifiers: Deep laterally compressed silvery body with dark irregular black mottling across the flanks, tall spiny dorsal fin and broad matching anal fin, large mouth, pale silver gill cover, rounded fan tail with speckles. Oval panfish silhouette, no regular vertical stripes."
+    },
+    {
+      "nameKo": "버봇",
+      "nameEn": "Burbot",
+      "scientificName": "Lota lota",
+      "file": "Assets/Art/UI/Fish_Burbot.png",
+      "source": "C:\\Users\\USER\\.codex\\generated_images\\01a0e3b7-9b70-7d93-8d16-c966f44190c2\\exec-ea72f55a-e886-4034-985d-9a51081d100a.png",
+      "prompt": "Use case: stylized-concept. Asset type: original transparent fish reward/encyclopedia sprite for the Unity 3D fishing game Deep Blue. Primary request: exactly ONE anatomically recognizable freshwater fish, full body in strict left-facing side profile, nose on left, tail on right, centered horizontally. Style: polished semi-realistic natural history game illustration with realistic scales/skin, delicate fin rays, controlled glossy highlights, softly painted detail, clear readable silhouette at small UI card size. Composition: landscape 3:2, fish occupies about 88% of width, all fins and tail fully visible, comfortable clear margin. Gentle upper-left neutral light and subtle underside shading ON the fish only. Background: genuinely transparent alpha. No water, landscape, floor, cast shadow, halo, particles, fishing tackle, typography, border, labels, logo or watermark. This is new original artwork, not a copy of another game's art. Subject: Burbot (Lota lota). Species identifiers: Elongated olive-brown marbled freshwater cod body, broad flattened head, ONE short chin barbel, short first dorsal fin then very long low second dorsal and long anal fin, rounded tail. Smooth mottled skin, cream belly, slender rear body, no catfish whisker fan."
+    }
+  ]
+}

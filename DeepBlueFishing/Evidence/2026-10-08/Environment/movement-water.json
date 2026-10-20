@@ -1,0 +1,78 @@
+[
+  {
+    "output": null,
+    "diagnostics": [],
+    "success": true,
+    "result": {
+      "time": 7.83338356,
+      "position": "(0.00, 0.12, 3.50)",
+      "grounded": true,
+      "IsInWater": false,
+      "IsDead": false,
+      "SecondsRemaining": 10,
+      "movementEnabled": true,
+      "lookEnabled": true,
+      "fishingEnabled": true,
+      "controllerEnabled": true,
+      "cursor": "Locked",
+      "focus": true
+    }
+  },
+  {
+    "output": null,
+    "diagnostics": [],
+    "success": true,
+    "result": {
+      "time": 11.2380829,
+      "position": "(0.00, 0.28, 10.70)",
+      "grounded": true,
+      "IsInWater": false,
+      "IsDead": false,
+      "SecondsRemaining": 10,
+      "movementEnabled": true,
+      "lookEnabled": true,
+      "fishingEnabled": true,
+      "controllerEnabled": true,
+      "cursor": "Locked",
+      "focus": true
+    }
+  },
+  {
+    "output": null,
+    "diagnostics": [],
+    "success": true,
+    "result": {
+      "time": 13.13007,
+      "position": "(0.00, -0.17, 14.69)",
+      "grounded": true,
+      "IsInWater": true,
+      "IsDead": false,
+      "SecondsRemaining": 9.008338,
+      "movementEnabled": true,
+      "lookEnabled": true,
+      "fishingEnabled": true,
+      "controllerEnabled": true,
+      "cursor": "Locked",
+      "focus": true
+    }
+  },
+  {
+    "output": null,
+    "diagnostics": [],
+    "success": true,
+    "result": {
+      "time": 15.9951429,
+      "position": "(0.00, 0.28, 6.70)",
+      "grounded": true,
+      "IsInWater": false,
+      "IsDead": false,
+      "SecondsRemaining": 10,
+      "movementEnabled": true,
+      "lookEnabled": true,
+      "fishingEnabled": true,
+      "controllerEnabled": true,
+      "cursor": "Locked",
+      "focus": true
+    }
+  }
+]

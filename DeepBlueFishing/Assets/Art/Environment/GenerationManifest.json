@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-08",
+  "assets": [
+    {
+      "name": "Cedar_Planks",
+      "path": "Assets/Art/Environment/Textures/Cedar_Planks.png",
+      "mode": "built-in image_gen",
+      "transparent_background": false,
+      "prompt": "Use case: stylized-concept. Asset type: seamless square albedo texture for real 3D wooden dock planks in the Unity fishing game Deep Blue. Orthographic straight-down view of weathered cedar wood surface, continuous lengthwise grain running vertically, warm desaturated brown and silver gray fibers, fine cracks, occasional subtle knots, damp dark grain in places. A single broad timber surface, no visible outer edge or frame and no layout of separate objects. Even diffuse neutral illumination, no baked directional shadows, no perspective, no glossy highlights. Rich tactile detail with restrained natural contrast, believable premium game material. Tileable on all four edges. Fill the entire square. No text, logos, labels or watermark."
+    },
+    {
+      "name": "Forest_Shore",
+      "path": "Assets/Art/Environment/Textures/Forest_Shore.png",
+      "mode": "built-in image_gen",
+      "transparent_background": false,
+      "prompt": "Use case: stylized-concept. Asset type: seamless square terrain albedo texture for a 3D mountain lake shoreline in the Unity fishing game Deep Blue. Orthographic straight-down view, fine sandy earth and muted gray-brown gravel with small smooth pebbles, tiny pine needles and sparse irregular soft olive moss patches. Mostly earthy neutral ground, not lawn grass, moderate fine detail that reads well repeated over terrain. Flat diffuse overcast light, uniform illumination, no cast shadows, no perspective, no large objects, no borders. Natural painterly realism with material detail, muted slate gray, taupe and olive palette. Tileable all four edges. Fill entire square. No writing, no logos, no watermark."
+    },
+    {
+      "name": "Granite_Rock",
+      "path": "Assets/Art/Environment/Textures/Granite_Rock.png",
+      "mode": "built-in image_gen",
+      "transparent_background": false,
+      "prompt": "Use case: stylized-concept. Asset type: seamless square albedo texture for 3D shoreline boulders and mountain rocks in Deep Blue. Orthographic close-up of a continuous weathered granite surface. Cool gray slate and subdued warm mineral flecks, fine stone grain, naturally fractured veins, extremely sparse desaturated pale green lichen, no dominant stripe or repeating large landmark. Uniform diffuse lighting, no large shadows, no specular highlights, no perspective, no isolated rock silhouette. Detailed but quiet photorealistic game texture, tileable across all four edges, fills full square. No text, logos or watermark."
+    },
+    {
+      "name": "Dawn_Sky",
+      "path": "Assets/Art/Environment/Textures/Dawn_Sky.png",
+      "mode": "built-in image_gen",
+      "transparent_background": false,
+      "prompt": "Use case: stylized-concept. Asset type: full 360-degree equirectangular skybox texture for the Unity mountain-lake fishing game Deep Blue. 2:1 panoramic latitude-longitude projection covering the full sky and lower hemisphere, continuous left-right seam. Quiet blue-hour dawn transitioning into warm morning light, layered delicate cirrus and broad soft clouds, pale muted apricot sunrise glow low along one area of the horizon, cool misty blue horizon elsewhere, deep subdued azure overhead. Low contrast physically plausible atmospheric colors; warm sun glow but no hard sun disk because the game supplies its own light. Horizon exactly through the middle. Below the horizon a smooth desaturated blue-gray atmospheric gradient, no visible land, lake, mountains, trees, buildings, people or objects. Sky only, no ground scenery. Refined natural painterly realism matching a peaceful alpine lake. No text, symbols, borders or watermark."
+    },
+    {
+      "name": "Pine_Branch",
+      "path": "Assets/Art/Environment/Textures/Pine_Branch.png",
+      "mode": "built-in image_gen",
+      "transparent_background": true,
+      "prompt": "Use case: stylized-concept. Asset type: alpha-cutout branch card texture used to construct real 3D pine trees in a Unity lake environment. One natural Scots pine branch spray isolated on fully transparent background, broad roughly triangular irregular silhouette. The woody branch begins at the left center and extends towards the right; many finer upward and downward branchlets bear dense clusters of long thin pine needles. Deep muted forest green needles with subtle olive new growth, brown slender woody stem mostly concealed by needles. Detailed natural botanical realism, not cartoon, even soft diffuse lighting, no cast shadow, no surrounding scenery, generous transparent gaps between delicate needle clusters. Branch occupies the full image with a little clear margin and is not cropped. No pot, no entire tree, no text, no border, no watermark."
+    },
+    {
+      "name": "Moss_Floor",
+      "path": "Assets/Art/Environment/Textures/Moss_Floor.png",
+      "mode": "built-in image_gen",
+      "transparent_background": false,
+      "prompt": "Use case: stylized-concept. Asset type: seamless square albedo texture for moss and low ground cover on the forest floor of a 3D mountain lake fishing game. Orthographic straight-down view of lush but muted olive and forest green short moss carpet, scattered fine pine needles and tiny sparse patches of dark humus. Natural small-scale leafy moss detail with restrained contrast and even diffuse illumination. No tree trunks, no isolated plant objects, no rocks bigger than tiny pebbles, no flowers, no perspective or shadows. Photorealistic game material texture, tileable across all four edges, square full-frame surface. No text, no logo, no watermark."
+    }
+  ]
+}

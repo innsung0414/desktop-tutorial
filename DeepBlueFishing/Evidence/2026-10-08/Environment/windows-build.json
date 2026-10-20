@@ -1,0 +1,15 @@
+{
+  "output": null,
+  "diagnostics": [],
+  "success": true,
+  "result": {
+    "result": "Succeeded",
+    "totalErrors": 0,
+    "totalWarnings": 2,
+    "totalSize": 155954616,
+    "outputPath": "C:/Users/USER/Documents/Codex/2026-09-28/dbs/DeepBlue/Builds/Windows/Deep Blue.exe",
+    "time": "2026-10-08T06:47:31.2433616",
+    "seconds": 55.5191009,
+    "building": false
+  }
+}

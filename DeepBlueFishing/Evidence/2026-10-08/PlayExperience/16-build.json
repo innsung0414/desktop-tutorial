@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "buildId": "build_5488f9a1e4b4",
+  "result": "Succeeded",
+  "platform": "StandaloneWindows64",
+  "outputPath": "C:/Users/USER/Documents/Codex/2026-09-28/dbs/DeepBlue/Builds/Windows/Deep Blue.exe",
+  "totalSizeBytes": 166878536,
+  "buildTimeMs": 8467,
+  "totalWarnings": 2,
+  "totalErrors": 0,
+  "errors": [],
+  "warnings": [
+    {
+      "message": "Pipeline: RuntimePipelineConfig found, but enableInBuilds = false. Pipeline will be disabled in Player builds."
+    },
+    {
+      "message": "Access token is empty. Native symbols will not be uploaded for this build. Please make sure you are signed in to the Unity Cloud."
+    }
+  ]
+}

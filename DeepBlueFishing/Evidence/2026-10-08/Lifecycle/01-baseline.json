@@ -1,0 +1,56 @@
+{
+  "scene": "Assets/Scenes/DeepBlueFishing.unity",
+  "frame": 2,
+  "hudOwnsFont": true,
+  "menusOwnsFont": true,
+  "fonts": [
+    {
+      "role": "HUD",
+      "id": -55788,
+      "name": "Malgun Gothic",
+      "valid": true,
+      "koreanGlyph": true
+    },
+    {
+      "role": "Menus",
+      "id": -54702,
+      "name": "Malgun Gothic",
+      "valid": true,
+      "koreanGlyph": true
+    }
+  ],
+  "clips": [
+    {
+      "id": -55796,
+      "name": "Water Splash Cue",
+      "samples": 10584
+    },
+    {
+      "id": -55798,
+      "name": "Bite Cue",
+      "samples": 7718
+    },
+    {
+      "id": -55800,
+      "name": "Hook Cue",
+      "samples": 3750
+    },
+    {
+      "id": -55802,
+      "name": "Catch Success Cue",
+      "samples": 12903
+    },
+    {
+      "id": -55804,
+      "name": "Catch Failure Cue",
+      "samples": 14556
+    }
+  ],
+  "previousResources": [],
+  "canvasCount": 2,
+  "eventSystemCount": 1,
+  "settings": {
+    "volume": 0.8,
+    "sensitivity": 0.15
+  }
+}

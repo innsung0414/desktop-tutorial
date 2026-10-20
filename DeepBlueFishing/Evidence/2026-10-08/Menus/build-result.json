@@ -1,0 +1,16 @@
+{
+  "output": null,
+  "diagnostics": [],
+  "success": true,
+  "result": {
+    "result": "Succeeded",
+    "errors": 0,
+    "warnings": 2,
+    "bytes": 133736320,
+    "scene": "Assets/Scenes/DeepBlueFishing.unity",
+    "hook": 5,
+    "reel": 0.25,
+    "tension": 0.35,
+    "menu": true
+  }
+}

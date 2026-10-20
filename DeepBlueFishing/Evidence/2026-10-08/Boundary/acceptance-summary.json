@@ -1,0 +1,61 @@
+{
+  "task": "DB-033",
+  "date": "2026-10-08",
+  "result": "Passed for terrain boundary repair",
+  "before": {
+    "evidence": "01-before-fix.json",
+    "finding": "Walking beyond rear terrain edge caused an endless fall"
+  },
+  "changes": {
+    "fenceBounds": {
+      "xMin": -142,
+      "xMax": 142,
+      "zMin": -72,
+      "zMax": 150
+    },
+    "solidSpans": 254,
+    "combinedRenderers": 1,
+    "source": "Assets/Editor/DeepBlueEnvironmentBuilder.cs",
+    "backup": "Assets/Scenes/Backups/DeepBlueFishing_BeforeBoundary_20261008.unity"
+  },
+  "editor": {
+    "evidence": [
+      "02-eight-directions.json",
+      "04-fence-final.png",
+      "05-water-regression.json",
+      "06-saved-scene.json"
+    ],
+    "passedDirections": 8,
+    "allGrounded": true,
+    "normalDockAndWaterRoundTrip": true,
+    "waterTimerResetTo10": true,
+    "fixture": "Near-boundary position placements followed by normal Input System W input; not a Windows keyboard test.",
+    "visualRepair": "Moved north fence in front of the scenic mountain mesh after its open backs were visible from the previous boundary.",
+    "invalidAttempt": "02-paused-attempt.json was excluded because auto-pause blocked movement."
+  },
+  "windows": {
+    "evidence": [
+      "07-windows-build.json",
+      "08-archive-verification.json",
+      "09-windows-r2-gameplay.jpg"
+    ],
+    "buildResult": "Succeeded",
+    "buildBytes": 157170248,
+    "errors": 0,
+    "warnings": 2,
+    "archive": {
+      "path": "Builds/Delivery/DeepBlue-Windows-20261008-preview-r2.zip",
+      "bytes": 66809765,
+      "sha256": "8a71d3d7aba37b32f8670c377809a1ca5f57a9a5d21e0fd193a91c1c1d92f6bd",
+      "checkedFiles": 181,
+      "allHashesMatch": true
+    },
+    "extractedPackageLaunched": true,
+    "titleToGameplayChecked": true
+  },
+  "remaining": [
+    "Full Windows keyboard and successful fishing acceptance",
+    "Actual sound listening",
+    "Long-session performance and other PCs"
+  ]
+}

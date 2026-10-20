@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-08",
+  "build": "Builds/Delivery/ExtractedCheck-20261008-r2/Deep Blue.exe",
+  "processId": 34904,
+  "processStartLocal": "2026-10-08T17:16:00.041755+09:00",
+  "resolution": "1920x1080",
+  "method": "Native sky pointer/keyboard actions, visible screenshots and current Player.log; no production state or balance changes.",
+  "observed": {
+    "consecutiveCastsInSameProcess": 3,
+    "biteLogEntries": 3,
+    "timeoutLogEntries": 3,
+    "readyAfterThirdFailure": true,
+    "focusLossPause": true,
+    "journalSpeciesVisible": 6,
+    "journalDiscovered": 0,
+    "journalTotalCaught": 0,
+    "cSharpExceptionMatches": 0
+  },
+  "scope": "Pass for three timeout-and-retry cycles and no catch awarded by those failures. FR-09 remains partial because Windows retry after success is unverified.",
+  "limitations": [
+    "A hook click was attempted after observing Bite, but the following Ready state and log show the hook window had elapsed.",
+    "Automated Escape produced no menu transition; this does not establish whether physical keyboard input works.",
+    "Successful hook, sustained reeling, line break, catch persistence, physical keyboard/mouse look and actual audio listening remain unverified.",
+    "Current log includes the pre-existing D3D12 info queue diagnostic; no C# exception matches were found."
+  ],
+  "evidence": [
+    "01-escape-no-menu.jpg",
+    "02-third-timeout.jpg",
+    "03-ready-after-third-failure.jpg",
+    "04-focus-loss-pause.jpg",
+    "05-journal-after-three-failures.jpg",
+    "Player-three-casts.log"
+  ]
+}

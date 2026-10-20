@@ -1,0 +1,42 @@
+{
+  "finished": true,
+  "method": "W/S Input System events from original starting area, unchanged movement and water code",
+  "records": [
+    {
+      "phase": "dock",
+      "position": {
+        "x": 0.0,
+        "y": 0.279999942,
+        "z": 10.6985455
+      },
+      "grounded": true,
+      "inWater": false,
+      "remaining": 10.0,
+      "dead": false
+    },
+    {
+      "phase": "water-entry",
+      "position": {
+        "x": 0.0,
+        "y": -0.169999987,
+        "z": 14.6969452
+      },
+      "grounded": true,
+      "inWater": true,
+      "remaining": 9.513836,
+      "dead": false
+    },
+    {
+      "phase": "return-to-shore",
+      "position": {
+        "x": 0.0,
+        "y": 0.279999822,
+        "z": 6.69721
+      },
+      "grounded": true,
+      "inWater": false,
+      "remaining": 10.0,
+      "dead": false
+    }
+  ]
+}

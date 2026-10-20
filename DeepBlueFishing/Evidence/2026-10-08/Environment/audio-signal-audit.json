@@ -1,0 +1,65 @@
+{
+  "output": null,
+  "diagnostics": [],
+  "success": true,
+  "result": {
+    "clips": [
+      {
+        "name": "splashClip",
+        "length": 0.48,
+        "frequency": 22050,
+        "channels": 1,
+        "read": true,
+        "peak": 0.481604666,
+        "rms": 0.08234214905277873,
+        "nonFinite": 0
+      },
+      {
+        "name": "biteClip",
+        "length": 0.35,
+        "frequency": 22050,
+        "channels": 1,
+        "read": true,
+        "peak": 0.319999963,
+        "rms": 0.1548840141268974,
+        "nonFinite": 0
+      },
+      {
+        "name": "hookClip",
+        "length": 0.17,
+        "frequency": 22050,
+        "channels": 1,
+        "read": true,
+        "peak": 0.319999367,
+        "rms": 0.13880463921162853,
+        "nonFinite": 0
+      },
+      {
+        "name": "successClip",
+        "length": 0.585,
+        "frequency": 22050,
+        "channels": 1,
+        "read": true,
+        "peak": 0.32,
+        "rms": 0.18614092862435663,
+        "nonFinite": 0
+      },
+      {
+        "name": "failureClip",
+        "length": 0.66,
+        "frequency": 22050,
+        "channels": 1,
+        "read": true,
+        "peak": 0.32,
+        "rms": 0.1817754488618909,
+        "nonFinite": 0
+      }
+    ],
+    "sourceVolume": 0.28,
+    "spatialBlend": 0,
+    "listenerVolume": 0.8,
+    "audioEnabled": true,
+    "sampleRate": 48000,
+    "speakerMode": 2
+  }
+}

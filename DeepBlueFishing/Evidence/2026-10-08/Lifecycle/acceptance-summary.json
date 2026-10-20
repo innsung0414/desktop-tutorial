@@ -1,0 +1,61 @@
+{
+  "scope": "FR-10/13/16 UI resource lifecycle and Windows preview packaging",
+  "date": "2026-10-08",
+  "fixed": [
+    "HUD legacy built-in font name changed from Arial.ttf to LegacyRuntime.ttf",
+    "Runtime-created fonts destroyed on scene teardown; shared fallback not destroyed"
+  ],
+  "editor": {
+    "compilationPassed": true,
+    "sceneReloads": 3,
+    "eachReloadReleased": {
+      "fonts": 2,
+      "audioClips": 5
+    },
+    "newFontsSupportKorean": true,
+    "canvases": 2,
+    "eventSystems": 1,
+    "onPlayStopAllTrackedResourcesReleased": true,
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "method": "SceneManager.LoadScene through live Editor evaluation; Start Fishing Button.onClick callback for HUD display. This was a resource lifecycle check, not a keyboard acceptance test.",
+    "evidence": [
+      "01-baseline.json",
+      "02-reload.json",
+      "03-reload.json",
+      "04-reload.json",
+      "05-hud-after-reload.png",
+      "06-editor-stop.json"
+    ]
+  },
+  "windows": {
+    "buildResult": "Succeeded",
+    "buildBytes": 155955640,
+    "errors": 0,
+    "warnings": 2,
+    "archive": {
+      "archive": "Builds/Delivery/DeepBlue-Windows-20261008-preview.zip",
+      "bytes": 66640837,
+      "sha256": "bfc0e747def253489b31f553ae48d957a7ea75e2c9c5db2568f4330b0a072816",
+      "checkedFiles": 181,
+      "allHashesMatch": true
+    },
+    "extractedExecutableLaunched": true,
+    "titleAndStartButtonChecked": true,
+    "environmentAndKoreanHUDVisible": true,
+    "inputUsed": "Native UI left click on Start Fishing",
+    "evidence": [
+      "07-windows-build.json",
+      "08-archive-verification.json",
+      "09-extracted-windows-gameplay.jpg"
+    ]
+  },
+  "notProven": [
+    "Full Windows keyboard and camera controls",
+    "Windows successful hook/reel/catch and journal persistence",
+    "Windows drowning and complete three-cast flow",
+    "Actual sound listening",
+    "Long-session performance and other PCs",
+    "Korean display when no supported OS font exists"
+  ]
+}

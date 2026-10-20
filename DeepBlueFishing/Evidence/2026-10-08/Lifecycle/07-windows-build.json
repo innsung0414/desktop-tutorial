@@ -1,0 +1,14 @@
+{
+  "building": false,
+  "result": "Succeeded",
+  "size": 155955640,
+  "errors": 0,
+  "warnings": 2,
+  "started": "2026-10-07T22:24:15.7148618Z",
+  "ended": "2026-10-07T22:24:23.7695278Z",
+  "output": "C:/Users/USER/Documents/Codex/2026-09-28/dbs/DeepBlue/Builds/Windows/Deep Blue.exe",
+  "warningMessages": [
+    "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds.",
+    "Access token is empty. Native symbols will not be uploaded for this build. Please make sure you are signed in to the Unity Cloud."
+  ]
+}

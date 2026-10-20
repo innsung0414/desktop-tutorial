@@ -1,0 +1,46 @@
+{
+  "output": null,
+  "diagnostics": [],
+  "success": true,
+  "result": {
+    "menu": true,
+    "blocked": true,
+    "scale": 0,
+    "cursor": "None",
+    "dead": false,
+    "inWater": false,
+    "remaining": 10,
+    "position": "(0.00, 0.28, 6.70)",
+    "volume": 0.8,
+    "sensitivity": 0.15,
+    "counts": [
+      {
+        "name": "무지개송어",
+        "count": 0
+      },
+      {
+        "name": "큰입배스",
+        "count": 0
+      },
+      {
+        "name": "강꼬치고기",
+        "count": 1
+      },
+      {
+        "name": "블루길",
+        "count": 0
+      },
+      {
+        "name": "잉어",
+        "count": 0
+      },
+      {
+        "name": "채널메기",
+        "count": 2
+      }
+    ],
+    "buttons": [
+      "Journal Back"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-08",
+  "scope": "Existing non-development release preview r2; 10-minute Ready-state process sampling and post-idle click/cast/timeout/reset liveness",
+  "result": "All 21 sampled process response flags true; no exit during observation; post-idle fishing state transitions verified",
+  "process": {
+    "id": 37476,
+    "startTime": "2026-10-08T18:00:30.8216801+09:00",
+    "path": "C:/Users/USER/Documents/Codex/2026-09-28/dbs/DeepBlue/Builds/Delivery/ExtractedCheck-20261008-r2/Deep Blue.exe",
+    "development": false
+  },
+  "observation": {
+    "start": "2026-10-08T18:12:25.4467980+09:00",
+    "end": "2026-10-08T18:22:25.8182161+09:00",
+    "durationSeconds": 600.3714181,
+    "sampleCount": 21,
+    "intervalTargetSeconds": 30,
+    "allSamplesResponding": true,
+    "workingSet": {
+      "firstBytes": 673619968,
+      "lastBytes": 688087040,
+      "minBytes": 673619968,
+      "maxBytes": 688087040,
+      "deltaBytes": 14467072
+    },
+    "privateBytes": {
+      "firstBytes": 1022054400,
+      "lastBytes": 1035776000,
+      "minBytes": 1022054400,
+      "maxBytes": 1035776000,
+      "deltaBytes": 13721600
+    },
+    "handles": {
+      "min": 1370,
+      "max": 1380
+    }
+  },
+  "postIdle": {
+    "nativeMouseCast": true,
+    "biteLogCount": 1,
+    "timeoutLogCount": 1,
+    "timeoutResultObserved": true,
+    "returnedToReady": true,
+    "exceptionPatternMatches": []
+  },
+  "environment": {
+    "gpu": "NVIDIA GeForce RTX 4070 SUPER",
+    "display": "1920x1080",
+    "unityEditorAlsoOpen": true
+  },
+  "evidence": [
+    "samples.ndjson",
+    "01-ready-start.jpg",
+    "02-ready-after-ten-minutes.jpg",
+    "03-cast-after-ten-minutes.jpg",
+    "04-after-cast-result.jpg",
+    "05-ready-after-timeout.jpg",
+    "Player-after-idle-and-cast.log"
+  ],
+  "limitations": [
+    "Responding is a sampled OS window response flag, not a continuous frame-time or FPS measurement.",
+    "10-minute idle memory sampling does not establish absence of memory leaks or sustained full-play performance.",
+    "Physical keyboard/mouse play feel and sound listening remain unverified.",
+    "Existing D3D12 info queue diagnostic 0x80004002 remains in the startup log."
+  ],
+  "changes": {
+    "gameCode": false,
+    "scene": false,
+    "releaseArchive": false,
+    "documentation": true
+  }
+}

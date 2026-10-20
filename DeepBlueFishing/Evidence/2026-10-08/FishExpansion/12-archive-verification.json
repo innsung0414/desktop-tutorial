@@ -1,0 +1,10 @@
+{
+  "archive": "DeepBlue-Windows-20261008-preview-r3.zip",
+  "archiveBytes": 69904114,
+  "archiveSha256": "aaeb997227943b6cc21de85e6072992d8095b2457d1a94e64bf929fd65636f6b",
+  "manifestEntries": 181,
+  "extractedFileCount": 182,
+  "manifestMatches": true,
+  "allContentHashesMatch": true,
+  "failures": []
+}

@@ -1,0 +1,85 @@
+{
+  "scene": "Assets/Scenes/DeepBlueFishing.unity",
+  "frame": 26553,
+  "hudOwnsFont": true,
+  "menusOwnsFont": true,
+  "fonts": [
+    {
+      "role": "HUD",
+      "id": -60530,
+      "name": "Malgun Gothic",
+      "valid": true,
+      "koreanGlyph": true
+    },
+    {
+      "role": "Menus",
+      "id": -59450,
+      "name": "Malgun Gothic",
+      "valid": true,
+      "koreanGlyph": true
+    }
+  ],
+  "clips": [
+    {
+      "id": -60538,
+      "name": "Water Splash Cue",
+      "samples": 10584
+    },
+    {
+      "id": -60540,
+      "name": "Bite Cue",
+      "samples": 7718
+    },
+    {
+      "id": -60542,
+      "name": "Hook Cue",
+      "samples": 3750
+    },
+    {
+      "id": -60544,
+      "name": "Catch Success Cue",
+      "samples": 12903
+    },
+    {
+      "id": -60546,
+      "name": "Catch Failure Cue",
+      "samples": 14556
+    }
+  ],
+  "previousResources": [
+    {
+      "id": -59096,
+      "destroyed": true
+    },
+    {
+      "id": -58016,
+      "destroyed": true
+    },
+    {
+      "id": -59104,
+      "destroyed": true
+    },
+    {
+      "id": -59106,
+      "destroyed": true
+    },
+    {
+      "id": -59108,
+      "destroyed": true
+    },
+    {
+      "id": -59110,
+      "destroyed": true
+    },
+    {
+      "id": -59112,
+      "destroyed": true
+    }
+  ],
+  "canvasCount": 2,
+  "eventSystemCount": 1,
+  "settings": {
+    "volume": 0.8,
+    "sensitivity": 0.15
+  }
+}

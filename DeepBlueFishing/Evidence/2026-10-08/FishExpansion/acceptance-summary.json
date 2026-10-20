@@ -1,0 +1,111 @@
+{
+  "task": "DB-034",
+  "date": "2026-10-08",
+  "status": "passed",
+  "scope": "Six additional fish illustrations, 12 reward references, two-page journal, save compatibility and Windows r3 preview",
+  "generation": {
+    "mode": "built-in imagegen",
+    "count": 6,
+    "size": [
+      1536,
+      1024
+    ],
+    "transparentBackground": true,
+    "manifest": "Assets/Art/UI/FishExpansionManifest.json"
+  },
+  "species": [
+    "옐로퍼치",
+    "월아이",
+    "브룩송어",
+    "레이크철갑상어",
+    "블랙크래피",
+    "버봇"
+  ],
+  "checks": {
+    "allTwelveRewardNamesAndSpritesValid": true,
+    "alphaBackgroundsPresent": true,
+    "sixReusableCardsAcrossTwoPages": true,
+    "previousNextAndBoundaryButtons": true,
+    "editorResolutions": [
+      "1920x1080",
+      "1280x720",
+      "1024x768"
+    ],
+    "editorCatch": {
+      "species": "버봇",
+      "sprite": "Fish_Burbot",
+      "normalInputSystemEvents": true,
+      "forcedRewardOrBalanceChanges": false,
+      "count": 1,
+      "restartedPlayPreserved": true,
+      "previousSpeciesCountsPreserved": true
+    },
+    "windows": {
+      "build": "DeepBlue-Windows-20261008-preview-r3",
+      "buildBytes": 166871368,
+      "errors": 0,
+      "warnings": 2,
+      "developmentBuild": false,
+      "extractedLaunch": true,
+      "journalPages": [
+        1,
+        2,
+        1
+      ],
+      "existingLargemouthBassCount": 1,
+      "totalDiscovered": 1,
+      "totalSpecies": 12,
+      "totalCaught": 1,
+      "screenshots": [
+        "13-windows-r3-title.png",
+        "14-windows-r3-page-one.png",
+        "15-windows-r3-page-two.png",
+        "16-windows-r3-return-page-one.png"
+      ]
+    },
+    "archive": {
+      "archive": "DeepBlue-Windows-20261008-preview-r3.zip",
+      "archiveBytes": 69904114,
+      "archiveSha256": "aaeb997227943b6cc21de85e6072992d8095b2457d1a94e64bf929fd65636f6b",
+      "manifestEntries": 181,
+      "extractedFileCount": 182,
+      "manifestMatches": true,
+      "allContentHashesMatch": true,
+      "failures": []
+    },
+    "finalEditor": {
+      "scene": "Assets/Scenes/DeepBlueFishing.unity",
+      "sceneDirty": false,
+      "playing": false,
+      "compiling": false,
+      "compilationFailed": false,
+      "developmentBuild": false,
+      "consoleErrors": 0,
+      "consoleWarnings": 2
+    }
+  },
+  "evidence": [
+    "01-generated-alpha.json",
+    "02-catalog.json",
+    "05-pagination.json",
+    "06-new-catch-attempt-one.json",
+    "07-burbot-caught.png",
+    "08-burbot-journal-720p.png",
+    "09-journal-4x3.png",
+    "10-restarted-play.json",
+    "11-build.json",
+    "12-archive-verification.json"
+  ],
+  "limitations": [
+    "Editor input-event validation is not physical keyboard gameplay.",
+    "All 12 references were checked; six new species were not each randomly caught.",
+    "Editor and Windows save stores are separate.",
+    "Windows full physical gameplay, sound listening, long-session performance remain tracked under DB-019/026/030."
+  ],
+  "documents": [
+    "README.md",
+    "SPEC.md",
+    "TASKS.md",
+    "Docs/FISH_RESEARCH_2026-10-08.md"
+  ]
+}
