@@ -1,0 +1,16 @@
+TIME   00:23:Obstacle_Small@4.4
+TIME   00:24:Obstacle_Wide@4.5
+TIME   00:26:Obstacle_Wide@4.4
+TIME   00:27:Obstacle_Wide@4.4
+TIME   00:29:Obstacle_Wide@4.5
+TIME   00:30:Obstacle_Wide@4.4
+TIME   00:32:Obstacle_Wide@4.4
+TIME   00:33:Obstacle_Small@4.5
+TIME   00:35:Obstacle_Small@4.5
+TIME   00:36:Obstacle_Small@4.5
+TIME   00:37:Obstacle_Small@4.4
+TIME   00:39:Obstacle_Tall@4.4
+TIME   00:40:Obstacle_Small@4.4
+TIME   00:41:Obstacle_Tall@4.5
+TIME   00:43:Obstacle_Small@4.4
+TIME   00:44:Obstacle_Wide@4.4

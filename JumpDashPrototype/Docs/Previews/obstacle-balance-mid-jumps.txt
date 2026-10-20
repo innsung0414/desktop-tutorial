@@ -1,0 +1,5 @@
+TIME   00:13:Obstacle_Small@4.4
+TIME   00:15:Obstacle_Wide@4.5
+TIME   00:17:Obstacle_Small@4.5
+TIME   00:19:Obstacle_Small@4.5
+TIME   00:20:Obstacle_Small@4.5

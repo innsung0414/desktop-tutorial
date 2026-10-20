@@ -1,0 +1,5 @@
+4.34:Obstacle_Tall@4.47
+6.84:Obstacle_Small@4.46
+7.96:Obstacle_Small@4.50
+10.38:Obstacle_Tall@4.46
+11.49:Obstacle_Small@4.50
