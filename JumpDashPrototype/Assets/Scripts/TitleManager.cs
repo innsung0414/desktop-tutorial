@@ -183,13 +183,20 @@ public class TitleManager : MonoBehaviour
 
         UnityEngine.UI.Image controls = SnowUIFactory.CreatePanel(
             root, "ControlsCard",
-            new Vector2(0.5f, 0.075f), new Vector2(0.5f, 0.5f),
-            new Vector2(790f, 74f), Vector2.zero, SnowUIFactory.Navy);
+            new Vector2(0.5f, 0.095f), new Vector2(0.5f, 0.5f),
+            new Vector2(1060f, 118f), Vector2.zero, SnowUIFactory.Navy);
         SnowUIFactory.CreateText(
-            controls.transform, "ControlsLabel", "SPACE  JUMP   /   AIR DOUBLE JUMP   /   TAB  DASH",
-            21f, SnowUIFactory.Ice, TextAlignmentOptions.Center,
+            controls.transform, "ControlsHeading", "HOW TO RIDE",
+            17f, SnowUIFactory.Cyan, TextAlignmentOptions.Center,
+            new Vector2(0.5f, 1f), new Vector2(0.5f, 0.5f),
+            new Vector2(360f, 30f), new Vector2(0f, -21f), FontStyles.Bold);
+        TextMeshProUGUI controlsLabel = SnowUIFactory.CreateText(
+            controls.transform, "ControlsLabel",
+            "SPACE  JUMP     /     ITEM + SPACE  DOUBLE JUMP\nTAB  DASH     /     ESC  PAUSE",
+            20f, SnowUIFactory.Ice, TextAlignmentOptions.Center,
             new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f),
-            new Vector2(750f, 42f), Vector2.zero, FontStyles.Bold);
+            new Vector2(1000f, 72f), new Vector2(0f, -17f), FontStyles.Bold);
+        controlsLabel.lineSpacing = 4f;
 
         // The stretched button label needs its mesh rebuilt after the nested layout resolves.
         Canvas.ForceUpdateCanvases();
